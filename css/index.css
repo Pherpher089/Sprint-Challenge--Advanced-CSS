@@ -257,3 +257,24 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+  .container .navigation nav a {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .container .navigation .head-image {
+    width: 100%;
+  }
+  .container .space-images .blast {
+    width: 100%;
+  }
+  .container .space-images .sky {
+    display: none;
+  }
+  .container .space-images .launch {
+    display: none;
+  }
+}
