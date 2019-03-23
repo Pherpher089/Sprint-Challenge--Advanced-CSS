@@ -52,7 +52,7 @@
 
       .btn {
 
-        .btn();
+        .btn(rgb(36, 36, 70), white);
 
       }
 
@@ -81,7 +81,7 @@
 
 @media @mobil{
   .container{
-    width: 400px;
+    .mobilWidth();
 
     .navigation{
       nav{
@@ -104,6 +104,22 @@
       }
       .launch{
         display: none;
+      }
+    }
+
+    .walk{
+      flex-direction: column-reverse;
+      align-content: center;
+      padding:0;
+      .walk-text{
+        .mobilWidth();
+        .btn{
+          width: 100%;
+          margin-bottom: 35px;
+        }
+      }
+      .walk-img{
+        margin-top: 30px;
       }
     }
   }

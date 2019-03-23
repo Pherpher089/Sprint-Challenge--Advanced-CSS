@@ -228,8 +228,8 @@ footer {
   width: 50%;
 }
 .home .walk .walk-text .btn {
-  background-color: green;
-  border: 1px solid green;
+  background-color: #242446;
+  border: 1px solid #242446;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -240,7 +240,7 @@ footer {
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
-  color: green;
+  color: #242446;
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
@@ -276,5 +276,20 @@ footer {
   }
   .container .space-images .launch {
     display: none;
+  }
+  .container .walk {
+    flex-direction: column-reverse;
+    align-content: center;
+    padding: 0;
+  }
+  .container .walk .walk-text {
+    width: 400px;
+  }
+  .container .walk .walk-text .btn {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .container .walk .walk-img {
+    margin-top: 30px;
   }
 }
