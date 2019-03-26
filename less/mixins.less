@@ -1,1 +1,30 @@
 // Mixins Here
+
+.flex(@dir: row; @align: center; @justify: space-between){
+    display: flex;
+    flex-direction: @dir;
+    align-items: @align;
+    justify-content: @justify;
+}
+
+.btn(@btnColor: green; @txtColor: white ;@bRadious: 12px ){
+
+    background-color: @btnColor; 
+    border: 1px solid @btnColor;
+    color: @txtColor;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: @bRadious;
+
+    &:hover{
+        background-color:@txtColor;
+        color: @btnColor;
+    }
+}
+
+.mobilWidth(){
+    width: 400px;
+}
